@@ -1,0 +1,183 @@
+article, aside, figure, footer, header, header, nav, section{
+  display: block;
+}
+
+html{
+  /*background-image: linear-gradient(left, #006699 0%, white 50%, #006699 100%);
+  background-image: -moz-linear-gradient(left, #006699 0%, white 50%, #006699 100%);
+  background-image: -webkit-linear-gradient(left, #006699 0%, white 50%, #006699 100%);
+  background-image: -o-linear-gradient(left, #006699 0%, white 50%, #006699 100%);*/
+  background: #000 url('bg.jpg') repeat fixed center;
+   background-size: 100% 100%;
+ 
+}
+
+h1 { font-family: ‘Reenie Beanie’, Arial, serif; font-weight: 400; }
+
+h2 {
+    font-size: 30%;
+}
+
+a{
+  color: #006699;
+  text-decoration: none;
+}
+
+img{
+  border: 0;
+}
+
+body{
+ 
+  margin: .5em auto;
+  padding: .3em;
+  background: #000 url('bgbox.png') no-repeat center;
+  background-size: 100% 100%;
+  margin-top:10%
+  #margin-left: auto;
+  # margin-right: auto;
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  /*font-family: arial, sans-serif;*/
+  font-size: 125%;
+  width: 70%;
+  min-width: 600px;
+  max-width: 1000px;
+  /*border: 2px solid #969;*/
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  box-shadow: 3px 3px 3px 3px;
+  -moz-box-shadow: 3px 3px 3px 3px;
+  -webkit-box-shadow: 3px 3px 3px 3px;
+
+}
+
+li{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  margin: 10%;
+  padding: .5em;
+  margin-top: .3em;
+  /*background-color: #009900;*/
+
+  font-size: 80%;
+  font-weight: bold;
+}
+
+section{
+
+  
+  margin-top : 100%
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  /*font-family: arial, sans-serif;*/
+  font-size: 100%;
+}
+
+table{
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .3em;
+}
+
+table.donate{
+  border: 0;
+}
+
+td{
+  border: 0;
+  /*font-family: 'Reenie Beanie', cursive;*/
+  font-family: 'Unkempt', cursive;
+  /*font-family: 'Waiting for the Sunrise', cursive;
+  font-family: 'Just Me Again Down Here', cursive;*/
+  font-size: 180%;
+  font-weight: bold;
+}
+
+ul{
+  margin: 0;
+  padding: .5em 0 1em;
+}
+
+#archive{
+  list-style-type: none;
+  font-size: 80%;
+}
+
+#melikes{
+  margin: 0;
+  padding: .3em;
+  background-color: #eee;
+  font-size: 70%;
+}
+
+#blog_text{
+  text-align:left;
+  margin: 0 8%;
+  font-size: 80%;
+  color: #111;
+  padding-top: 1em;
+}
+
+#menu_top{
+  margin: 0 auto 1em;
+  background-color: #fff;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+  padding: .1em;
+}
+
+#pages_container{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .3em;
+}
+
+.creativecommons {
+  font-size: 1em;
+  text-align: center;
+  border-top: 1px solid #666;
+  padding: .3em;
+}
+
+.credit {
+  font-size: .70em;
+  border-top: 1px solid #666;
+}
+
+.faqlist{
+  list-style-type: none;
+  margin: 0 1.5em;
+  padding: 0;
+  font-size: .95em;
+  text-align: center;
+}
+
+.privacy {
+  font-size: .60em;
+  border-top: 1px solid #666;
+}
+
+.privacylist{
+  list-style-type: circle;
+  margin: 0 1.5em;
+  padding: 0;
+}
+
+.privacytext {
+  font-size: .70em;
+  text-align: justify;
+}
+
+.storytitle{
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+}
